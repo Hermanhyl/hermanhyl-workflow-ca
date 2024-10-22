@@ -38,6 +38,6 @@ describe(`auth`, () => {
 
       cy.get(`button[type="submit"]`).click();
     });
-    cy.get(`button[data-auth=logout]`);
+    cy.get(`button[data-auth=logout]`).click();
   });
 });
